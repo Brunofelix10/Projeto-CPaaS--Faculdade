@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Logincss.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Login CpaaS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <div class="col-md-6"> 
+                <div class="form">
+            <form class="form-login" action= ../Home/home.html>
+                <div class="form-header">
+                    <div class="title-login">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="login-button">
+                        <a href="../Cadastro/cadastro.html">Cadastro</a>
+                    </div>
+                </div>
+
+                    <div class="input-box">
+                        <label for="loginname">Login</label>
+                        <input id="loginname" type="text" name="loginname" placeholder="Digite seu login" minlength="6" maxlength="6" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="loginsenha">Senha</label>
+                        <input id="loginsenha" type="password" name="loginsenha" placeholder="Digite sua senha" minlength="8" maxlength="8" required>
+                    </div>
+
+                <div class="continue-button">
+                <button>Entrar</button>    
+                <div class="errorlogin-message" id="errorLoginMessage"></div>
+                <div class="length-error" id="lengthError"></div>
+                </div>
+            
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/loginjs.js"></script>
+</body>
+
+</html>

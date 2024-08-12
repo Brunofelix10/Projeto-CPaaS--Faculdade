@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+    *   {
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to left top, rgb(13, 80, 136), rgb(51, 204, 255));
+        margin:0;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.212);
+    }
+
+    .form {
+        width: 100%; /* Ajuste a largura conforme necessário */
+        padding: 2rem 3.5rem;        
+        background-color: #fff;
+        border-radius: 18px;
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.212);
+    }
+
+    .form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .login-button {
+    display: flex;
+    align-items: center;
+    }
+
+    .login-button a {
+    border: none;
+    background-color: deepskyblue;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    }
+
+    .login-button a:hover {
+    background-color:rgb(10, 167, 219);
+    }
+
+    .form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: deepskyblue;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    }
+
+    .input-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.1rem;
+    }
+
+    .input-box input {
+        margin: 0.6rem 0;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px #0000001c;
+        font-size: 0.8rem;
+    }
+
+    .input-box input:hover {
+        background-color: #eeeeee75;
+    }
+
+    .input-box input:focus-visible {
+        outline: 1px solid deepskyblue;
+    }
+
+    .input-box label,
+.gender-title h6 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 1.5rem;
+    border: none;
+    background-color: deepskyblue;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+}
+
+.continue-button button:hover {
+    background-color: rgb(10, 167, 219);
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-login{
+    width: 25rem;
+    height: 25rem;
+}
+
+.errorlogin-message{
+    color: red;
+}

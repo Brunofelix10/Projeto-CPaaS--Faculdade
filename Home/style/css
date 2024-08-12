@@ -1,0 +1,52 @@
+ body {
+            font-family: 'Arial', sans-serif; /* Escolha uma fonte apropriada */
+            line-height: 1.6; /* Melhora a legibilidade do texto */
+            color: #333; /* Cor do texto principal */
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 2.5em; /* Tamanho do título principal */
+            color: #007BFF; /* Cor do título principal */
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8em; /* Tamanho do segundo título */
+            color: #0056b3; /* Cor do segundo título */
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.5em; /* Tamanho do terceiro título */
+            color: #0056b3; /* Cor do terceiro título */
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em; /* Tamanho do texto normal */
+            color: #555; /* Cor do texto normal */
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            float: right;
+            margin-left: 20px;
+        }
+.content {
+            max-width: 800px; /* Defina a largura máxima do conteúdo principal */
+            margin: auto; /* Centralize o conteúdo */
+        }
+
+         img {
+            max-width: 100%; /* Ajuste a largura máxima da imagem para ocupar até 100% da largura do contêiner */
+            height: auto; /* Permita que a altura seja ajustada automaticamente proporcionalmente à largura */
+            float: right; /* Alinhe a imagem à direita */
+            margin-left: 20px; /* Adicione um espaço à esquerda para separar a imagem do texto */
+        }
